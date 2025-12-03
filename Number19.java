@@ -1,0 +1,17 @@
+
+/**
+ * Write a description of class Number19 here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Number19{
+    public static void main (String [] args){
+        String[] students = {"Alice", "Bob", "Charlie"};
+        int[] grades = {85, 92, 78};
+        
+        for (int i = 0; i < students.length; i++){
+            System.out.println(students[i] + " Scored " + grades[i]);
+        }
+    }
+    }
